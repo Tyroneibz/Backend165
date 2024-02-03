@@ -6,6 +6,9 @@ db.createCollection("SkiOrders")
 db.createCollection("users")
 
 
+
+
+
 use SkiServiceDB
 db.SkiOrders.insertOne({
   kundenname: "string",
@@ -15,6 +18,12 @@ db.SkiOrders.insertOne({
   dienstleistung: "string",
   status: "string"
 })
+
+
+
+
+
+
 
 
 use SkiServiceDB
